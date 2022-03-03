@@ -1,0 +1,25 @@
+.navbar-container {
+  width: 350px;
+  min-height: 100%;
+  background: #F0F2F5;
+}
+.list-group {
+  
+  width: 100%;
+
+  display: flex;
+  overflow: hidden;
+  
+}
+.list-group-item {
+  border: none;
+  padding: 20px 10px 10px 30px;
+ background: none;
+}
+.list-groups {
+  height: 50%;
+}
+.list-group-expanded {
+  width: 100%;
+  overflow-y: scroll;
+}

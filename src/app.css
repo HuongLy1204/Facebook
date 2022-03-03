@@ -1,35 +1,9 @@
 body,
+#root,
 html {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-}
-.header {
-  padding: 0;
-  margin: 0;
-  height: 56px;
-  width: 100vw;
-  background: yellow;
-  border: grey solid 0.5px;
-}
-.mainitem {
-  display: flex;
-  flex-direction: row;
-  
-}
-.navleft {
-  width: 348px;
-  height: 100vh;
-  border: grey solid 0.5px;
-}
-.main {
-  width: calc(100% - 348px - 348px);
-  border: grey solid 0.5px;
-  height: 100vh;
-}
-.navright {
-  width: 348px;
-  height: 100vh;
-  border: grey solid 0.5px;
+
+  height: 100%;
+  overflow-x: hidden;
 }

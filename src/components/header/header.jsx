@@ -1,5 +1,5 @@
-import "./header.css";
-import Myava from "../../asset/avatar.jpeg";
+import "./Header.css";
+import Myava from "../../Asset/avatar.jpeg";
 function Header() {
   return (
     <>

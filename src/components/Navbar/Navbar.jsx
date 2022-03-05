@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Myava from "../../asset/avatar.jpeg";
+import Myava from "../../Asset/avatar.jpeg";
 
-import "./navbar.css";
+import "./Navbar.css";
 function Navbar() {
   const [isExpand, setIsExpand] = useState(false);
 

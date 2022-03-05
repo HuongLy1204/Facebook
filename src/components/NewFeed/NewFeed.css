@@ -1,0 +1,5 @@
+.newfeed-container {
+  width: calc(100vw - 350px - 450px);
+  height: 100vh;
+  background: #f0f2f5;
+}

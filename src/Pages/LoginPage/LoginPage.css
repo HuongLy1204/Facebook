@@ -1,0 +1,29 @@
+.loginPage-container{
+width: 1300px;
+height: 650px;
+display: flex;
+flex-direction: row;
+margin: 150px 200px 100px 300px;
+
+}
+.facebook-logo-container{
+    width: 700px;
+    height: 500px;
+    margin: 90px 0 0 30px;
+  
+    position: relative;
+}
+.facebook-logo{
+    width: 400px;
+    height: 200px;
+    margin: 60px 0 0 10px;
+    position:absolute;
+    bottom: 300px;
+  
+    
+}
+.slogan{
+    position:absolute;
+    bottom: 250px;
+    padding: 0px 100px 0px 20px;
+}

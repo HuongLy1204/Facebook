@@ -4,26 +4,34 @@ import ImageIcon from '@mui/icons-material/Image';
 import SentimentVerySatisfiedIcon from '@mui/icons-material/SentimentVerySatisfied';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import "./UpdateStatus.css"
 
 function UpdateStatus(){
 return(
     <div className="status-container">
-        <div>
-            <img src={Myavar}></img>
-            <input type="search"/>
+        <div className="input-container">
+            <img className="my-avatar" src={Myavar}></img>
+            <input value={"   LY ơi, Bạn đang nghĩ gì thế?"} className="input-search" type="search"/>
         </div>
-        <div>
-        <Stack direction="row" spacing={2}>
-      <Button  startIcon={< VideoCameraFrontIcon/>}>
-        Video trực tuyến
-      </Button>
-      <Button  endIcon={< ImageIcon/>}>
-        Ảnh/ video
-      </Button>
-      <Button  endIcon={< SentimentVerySatisfiedIcon/>}>
-        Cảm xúc
-      </Button>
-    </Stack>
+        <div className="button-container">
+        <button className="button-item">
+          <button>
+            <VideoCameraFrontIcon></VideoCameraFrontIcon>
+          </button>
+          <span>Video trực tiếp</span>
+        </button>
+        <button className="button-item">
+          <button>
+            <ImageIcon></ImageIcon>
+          </button>
+          <span>Ảnh/ video</span>
+        </button>
+        <button className="button-item">
+          <button>
+            <SentimentVerySatisfiedIcon></SentimentVerySatisfiedIcon>
+          </button>
+          <span>Cảm xúc/ Hoạt động</span>
+        </button>
         </div>
     </div>
 )

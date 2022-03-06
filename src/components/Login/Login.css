@@ -1,0 +1,27 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    background-color: cadetblue;
+    margin: 50px 50px 0px 0px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 0px;
+}
+.logins{
+    height: 56px;
+    background-color: chartreuse;
+}
+.inputs-item{
+    height: 65px;
+    width: 450px;
+    border: 0.01px solid gray;
+    margin: 10px 10px 10px 25px;
+    border-radius: 10px;
+}
+.forgot{
+    
+}

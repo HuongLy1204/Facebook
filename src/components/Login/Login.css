@@ -3,8 +3,13 @@
     flex-direction: column;
     width: 500px;
     height: 450px;
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
+   
+    border-radius: 10px;
     margin: 50px 50px 0px 0px;
+    box-shadow: 0.5px 0.5px 0.5px 2px #cfcfcf;
+    font-size: 24px;
+    color: rgb(138, 137, 137);
 }
 .input-container{
     display: flex;
@@ -12,16 +17,24 @@
     margin: 10px 0px 0px 0px;
 }
 .logins{
-    height: 56px;
-    background-color: chartreuse;
+    height: 100%;
+    background-color: #3975EA;
+    color: rgb(255, 255, 255);
 }
 .inputs-item{
     height: 65px;
     width: 450px;
-    border: 0.01px solid gray;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #cfcfcf;
     margin: 10px 10px 10px 25px;
     border-radius: 10px;
 }
 .forgot{
-    
+    border: none;
+    height: 60px;
+}
+.create{
+    width: 300px;
+    margin: 50px 50px 30px 100px;
+    background-color: #65B543;
+    color: rgb(255, 255, 255);
 }

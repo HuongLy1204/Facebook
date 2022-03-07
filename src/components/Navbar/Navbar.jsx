@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Myava from "../../Asset/avatar.jpeg";
 
 import "./Navbar.css";
@@ -16,7 +17,7 @@ function Navbar() {
             className="list-group-item list-group-item-action "
             aria-current="true"
           >
-            <img src={Myava} />
+            <img className="my-avatars" src={Myava} />
             <span>LY</span>
           </button>
           <button
@@ -317,14 +318,16 @@ function Navbar() {
         </div>
       ) : (
         <div className="list-group">
+          <Link to="/personalpage">
           <button
             type="button"
             className="list-group-item list-group-item-action "
             aria-current="true"
           >
-            <img src={Myava} />
+            <img className="my-avatars" src={Myava} />
             <span>LY</span>
           </button>
+          </Link>
           <button
             type="button"
             className="list-group-item list-group-item-action"

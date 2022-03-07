@@ -5,7 +5,7 @@ return (
     <button className="story-item">
     <div>{prop.dataStory.content}</div>
     <span>{prop.dataStory.name}</span>
-    <img src={prop.dataStory.avatar}/>
+    <img className="my-avatars" src={prop.dataStory.avatar}/>
     </button>
 )
 }

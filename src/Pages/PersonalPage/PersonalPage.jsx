@@ -1,4 +1,5 @@
 import Header from "../../Components/Header/Header";
+import Navigation from "./Components/Navigation/Navigation";
 import Presentation from "./Components/Presentation";
 import "./PersonalPage.css";
 function PersonalPage() {
@@ -7,7 +8,7 @@ function PersonalPage() {
       <Header></Header>
       <div className="personal-container">
         <Presentation></Presentation>
-        <div>ava</div>
+        <Navigation></Navigation>
       </div>
     </div>
   );
